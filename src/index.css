@@ -14,19 +14,31 @@ code {
 
 .round {
     color: white;
-    font-size: 20px;
-    border-radius: 50%;
+    border-radius: 100%;
     border: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
     text-align: center;
-    height: 25px;
-    display: inline-block;
-    padding: 10px;
 }
 
 .IncButton {
-    background-color: green;
+    background-color: rgb(0, 170, 0);
 }
 
 .DecButton {
-    background-color: red;
+    background-color: rgb(199, 0, 0);
+}
+
+.centered {
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.dropdown {
+    background-color: rgb(135, 233, 135);
 }
