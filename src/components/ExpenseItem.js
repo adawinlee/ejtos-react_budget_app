@@ -43,6 +43,9 @@ const ExpenseItem = (props) => {
                     <div class="centered">-</div>
                 </div>
             </td>
+            <td>
+                <TiDelete size="1.5em"></TiDelete>
+            </td>
         </tr>
     );
 };

@@ -41,4 +41,5 @@ code {
 
 .dropdown {
     background-color: rgb(135, 233, 135);
+    border: none;
 }
