@@ -32,6 +32,7 @@ const Budget = () => {
                     type="number"
                     step="10"
                     max="20000"
+                    size="15"
                     onBlur={(event)=>{changeBudget(event.target.value)}}
                 >
                 </input>
